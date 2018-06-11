@@ -1,0 +1,659 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* TYPOGRAPHY */
+
+@font-face {
+    font-family: "MilluniumMD";
+    src: url('../fonts/Millunium Medium/Millunium-Medium.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Millunium Medium/Millunium-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Millunium Medium/Millunium-Medium.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/Millunium Medium/Millunium-Medium.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Millunium Medium/Millunium-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: "Raleway-Regular";
+    src: url('../fonts/Raleway/Raleway-Regular.ttf');
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "MilluniumMD", serif;
+}
+
+p, a, button, input, blockquote {
+    font-family: "Raleway-Regular", sans-serif;
+}
+
+h1 {
+    font-size: 64px;
+    line-height: 64px;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 56px;
+}
+
+h3 {
+    font-size: 32px;
+    line-height: 38px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 18px
+}
+
+p, blockquote {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+button {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* SECTION - home */
+
+#home {
+    background-image: url("../img/pp-main-background.jpg");
+    background-size: cover;
+    color: white;
+}
+
+#home nav {
+    /* width: 1200px; */
+    padding: 20px;
+    position: relative;
+}
+
+#home nav ul {
+    list-style-type: none;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+
+}
+
+#home nav ul li {
+    display: inline-block;
+    padding: 10px;
+
+}
+
+#home nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}   
+
+#home #lead {
+    margin: 0 auto;
+    /* width: 600px; */
+    padding-top: 160px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+#home #lead h1 {
+    padding: 20px 0px;
+    /* width: 900px; */
+    margin: 0 auto;
+}
+
+#home #lead p {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#home #lead button {
+    margin: 60px 0;
+    width: 320px;
+    height: 45px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(63,174,73);
+    border: 0px
+}
+
+#home #lead #arrow {
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    font-family: "MilluniumMD";
+    margin: 0 auto;
+}
+
+/* SECTION - ABOUT */
+
+#about {
+    background-color: rgb(245,245,245);
+    height: 600px;
+    z-index: -20;
+}
+
+#about .container {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#about #aboutleft {
+    position: absolute;
+    top: 90px;
+    z-index: 30;
+}
+
+#about #aboutleft #info {
+
+    width: 500px;
+    padding: 50px;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgb(153,153, 153);
+}
+
+#about #aboutleft #info h4 {
+    color: rgb(153,153,153);
+    text-transform: uppercase;
+}
+
+#about #aboutleft #stats {
+    margin: 0 auto;
+    width: 400px;
+    padding: 50px;
+    background-color: rgb(63,174,73);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#about #aboutleft #stats h4 {
+    width: 360px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#about #aboutleft #stats .stat {
+    width: 120px;
+    text-align: center;
+
+}
+
+#about #aboutright {
+    position: absolute;
+    top: 160px;
+    right: 0px;
+    z-index: 20;
+}
+
+#about #aboutright img {
+    height: 460px;
+    width: 650px;
+}
+
+/* SECTION AWARDS */
+
+#awards {
+    padding-top: 200px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+#awards h4 {
+    color: rgb(153,153,153);
+}
+
+#awards h3 {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#awards #awards-elements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+#awards #awards-elements .award-item {
+    width: 160px;
+}
+
+#awards #awards-elements .award-item h2 {
+    color: rgb(153,153,153);
+}
+
+#awards #awards-elements .award-item .green {
+    color: rgb(63,174,73);
+}
+
+/* SECTION HOWTO */
+
+#howto {
+    background-color: rgb(245,245,245);
+    height: 630px;
+}
+
+#howto .container {
+    position: relative;
+}
+
+
+#howto #howleft {
+    position: absolute;
+    top: 100px;
+    width: 500px;
+    padding: 50px;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgb(153,153, 153);
+    z-index: 20;
+
+}
+
+#howto #howleft h4 {
+    color: rgb(153,153,153);
+    padding-bottom: 20px;
+}
+
+#howto #howleft button {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(63,174,73);
+    padding: 20px;
+    height: 50px;
+    width: 300px;
+    margin-top: 20px;
+    border: 0px;
+}
+
+#howto #howright {
+    color: white;
+    position: absolute;
+    top: 170px;
+    right: 0px;
+    width: 645px;
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: rgb(63,174,73);
+
+}
+
+#howto #howright blockquote {
+    padding-left: 90px;
+}
+
+#howto #howright #person {
+    padding-left: 90px;
+    padding-top: 30px;
+}
+
+#howto #howright #person img {
+    width: 65px;
+    border-radius: 50%;
+    background-color: white;
+    float: left;
+    z-index: 10;
+
+}
+
+#howto #howright #person #personabout {
+    float: left;
+    padding: 20px;
+}
+
+/* SECTION CONTACT */
+
+#contact {
+    height: 600px;
+}
+
+#contact .container {
+    position: relative;
+}
+
+#contact img {
+    width: 550px;
+    position: absolute;
+    top: 100px;
+}
+
+
+#contact #contact-form {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    width: 600px;
+}
+
+#contact #contact-form h4 {
+    color: rgb(153,153, 153);
+    padding-bottom: 20px;
+}
+
+#contact .input-top {
+    width: 280px;
+    height: 50px;
+    margin: 5px;
+    border: 0px;
+    border-bottom: 1px solid rgb(153,153,153);
+
+}
+
+#contact textarea {
+    width: 580px;
+    height: 70px;
+    background-color: rgb(245,245,245);
+    margin: 25px 0px;
+    padding: 20px 0px;
+    color: rgb(153,153,153);
+    font-family: "Raleway-Regular";
+}
+
+#contact .input-submit {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(63,174,73);
+    padding: 20px;
+    height: 50px;
+    width: 300px;
+    border: 0px;
+}
+
+/* SECTION FOOTER */
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 40px;
+    background-color: rgb(30,48,102);
+}
+
+/* HAMBURGER */
+
+/* HAMBURGER MENU */
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.menu-icon {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+    display: none;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* MEDIA QUERIES */
+
+/* TABLET */
+
+@media only screen and (max-width: 1024px) {
+
+    .bar1, .bar2, .bar3 {
+            display: block;
+        }
+    #menu {
+        display: none;
+        width: 400px;
+        background-color: rgba(0, 0, 0, 0.733);
+    }
+
+    
+    .container {
+        width: 100%;
+    }
+
+    #about {
+        height: 745px;
+    }
+    #about .container {
+        width: 100%;
+        position: relative;
+    }
+
+    #about #aboutleft #info {
+        position: absolute;
+        top: 70px;
+        left: 5px;
+        z-index: 30;
+        width: 500px;
+        box-sizing: border-box;
+    }
+
+    #about #aboutleft #stats {
+        position: absolute;
+        left: 495px;
+        width: 250px;
+        top: 200px;
+        z-index: 30;
+    }
+
+    #about #aboutright {
+        position: absolute;
+        top: 450px;
+        left: 50px;
+        width: 500px;
+        z-index: 10;
+    }
+
+    #about button {
+        color: white;
+        font-weight: bold;
+        background-color: rgb(63,174,73);
+        padding: 20px;
+        height: 50px;
+        width: 300px;
+        border: 0px;
+    }
+
+    #awards {
+        padding-top: 200px;
+    }
+
+    #howto #howleft {
+        position: absolute;
+        top: 60px;
+        left: 20px;
+        padding: 30px;
+    }
+
+    #howto #howright {
+        position: absolute;
+        top: 370px;
+        right: 20px;
+        padding: 30px;
+    }
+
+    #contact img {
+        position: unset;
+        width: 100%;
+        margin-top: 200px;
+    }
+
+    #contact #contact-form {
+        position: unset;
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    footer {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 520px) {
+    #home #lead {
+        padding-top: 45px;
+        padding-bottom: 20px;
+    }
+
+    #home #lead p {
+        width: 100%;
+    }
+
+    #home #lead button {
+        margin: 20px auto;
+        padding: 0px;
+    }
+
+    #about #aboutleft {
+        position: unset;
+    }
+
+    #about #aboutleft #info {
+        position: unset;
+        width: 90%;
+        margin: 5%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    #about button {
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    #about #aboutright {
+        position: unset;
+        /* margin-top: 500px; */
+    }
+
+    #about .container #aboutright img {
+        width: 100%;
+        height: 320px;
+        padding: 0px;
+        position: unset;
+    }
+
+    #about #aboutleft #stats {
+        width: 100%;
+        position: unset;
+        padding: 50px 0;
+        margin: 50px 0px 0px 0px;
+    }
+
+    #about #aboutleft #stats .stat {
+        width: 100%;
+    }
+
+    #awards {
+        position: unset;
+        margin-top: 400px;
+        padding-bottom: 50px;
+    }
+
+    #awards h3 {
+        width: 100%;
+        
+    }
+
+    #howto {
+        margin: 0px;
+        position: unset;
+        clear: both;
+    }
+
+    #howto #howleft {
+        width: 96%;
+        box-sizing: border-box;
+        padding: 5%;
+        margin: 2%;
+        margin-top: 50px;
+
+        position: unset;
+    }
+
+    #howto #howright {
+        width: 96%;
+        padding: 2%;
+        margin: 2%;
+        box-sizing: border-box;
+        position: unset;
+        padding-bottom: 20px;
+    }
+
+    #howto #howright blockquote {
+        padding: 30px;
+    }
+
+    #howto #howright #person {
+        padding: 30px;
+        margin-bottom: 100px;
+    }
+
+    #contact img {
+        position: unset;
+        clear: both;
+    }
+
+    #contact {
+        padding: 0px;
+        margin: 0px auto;
+        position: unset;
+        height: 800px;
+
+    }
+
+    #contact #contact-form {
+        margin: 20px auto;
+    }
+
+    #contact .container {
+        width: 100%;
+        clear: both;
+    }
+
+    #contact textarea {
+        width: 300px;
+    }
+
+    footer {
+        display: none;
+    }
+}
+
