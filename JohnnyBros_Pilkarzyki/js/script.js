@@ -2,19 +2,27 @@ $(document).ready(function() {
     
     
     // hamburger menu
+
+    if ($(window).innerWidth() <= 1024) {
+    $("#home ul").toggle();
+    $("#home ul").toggleClass("responsive");
     $(".menu-icon").click(function() {
-        $(".menu-icon").toggleClass('change');
-        $("nav #menu").toggle(function () {
-            $("nav #menu").addClass("d-none");
-            $("nav #menu ul li").removeClass("d-block");
-        }, function () {
-            $("nav #menu").removeClass("d-none");
-            $("nav #menu ul li").addClass("d-block");
+        $("#home ul").toggle();
+        $(".menu-icon").toggleClass("change");
 
         });
-    });
 
+        $(window).scroll(function() {
+            var height = $(window).scrollTop();
+        
+            if(height  > 500) {
+                $("#home nav").addClass('p-sticky');
+            } else {
+                $("#home nav").removeClass('p-sticky');
+             }
+        });
 
+    };
 
     //   SCROLL
     var scrollLink = $('.scroll');

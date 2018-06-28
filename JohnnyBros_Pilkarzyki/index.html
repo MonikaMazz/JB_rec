@@ -4,8 +4,10 @@
 	<title>johnnybros - Party Parrot Tournament - Turniej Piłkarzyków</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"> -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="screen and (max-width: 1024px)">
+    <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 520px)">
+
  </head>
 <body>
 <section id="home">
@@ -79,27 +81,37 @@
     <div id="awards-elements">
         <div class="award-item">
             <h2 class="green">#1</h2>
-            <img src="img/pp-reward-1.svg">
+            <div class="award-icon">
+                <img src="img/pp-reward-1.svg">
+            </div>
             <p>Uścisk dłoni prezesa</p>
         </div>
         <div class="award-item">
                 <h2>#2</h2>
-                <img src="img/pp-reward-2.svg">
+                <div class="award-icon">
+                     <img src="img/pp-reward-2.svg">
+                </div>
                 <p>Roczna prenumerata gazety "Wędkarski Świat"</p>
         </div>
         <div class="award-item">
                 <h2>#3</h2>
-                <img src="img/pp-reward-3.svg">
+                <div class="award-icon">
+                    <img src="img/pp-reward-3.svg">
+                </div>
                 <p>Trial na stronie do skracania linków ujeb.se</p>
         </div>
         <div class="award-item">
                 <h2>#4</h2>
-                <img src="img/pp-reward-4.svg">
+                <div class="award-icon">
+                    <img src="img/pp-reward-4.svg">
+                </div>
                 <p>Licencja programu WinRar</p>
         </div>
         <div class="award-item">
                 <h2>#5</h2>
-                <img src="img/pp-reward-5.svg">
+                <div class="award-icon">
+                    <img src="img/pp-reward-5.svg">
+                </div>
                 <p>Możliwość pracy po godzinach</p>
         </div>
     </div>
@@ -130,7 +142,9 @@
 
 <section id="contact">
     <div class="container">
-        <img src="img/pp-office.jpg">
+        <div id="contact-img">
+            <img src="img/pp-office.jpg">
+        </div>
         <div id="contact-form">
             <h4>Kontakt</h4>
             <h3>Napisz do nas</h3>

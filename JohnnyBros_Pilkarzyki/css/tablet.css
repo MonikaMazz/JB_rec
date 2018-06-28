@@ -1,0 +1,156 @@
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+  .bar1, .bar2, .bar3 {
+    display: block;
+  }
+  #menu {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.733);
+  }
+  nav {
+    padding: 0px;
+  }
+  #home .responsive {
+    width: 400px;
+    padding: 50px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 100vh;
+    background-color: #1e3066;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  #home .responsive li {
+    display: block;
+    width: 400px;
+  }
+  #home .responsive li a {
+    text-transform: initial;
+  }
+  .container {
+    width: 100%;
+  }
+  #about {
+    height: 745px;
+  }
+  #about .container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #about #aboutleft {
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 0px;
+  }
+  #about #aboutleft #info {
+    width: 60%;
+    padding: 20px;
+    z-index: 40;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-bottom: 0px;
+  }
+  #about #aboutleft #info button {
+    width: 100%;
+  }
+  #about #aboutleft #stats {
+    width: 40%;
+    padding: 20px;
+    margin-left: -5%;
+    z-index: 30;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: -100px;
+  }
+  #about #aboutleft #stats .stat {
+    margin: 0 auto;
+  }
+  #about #aboutleft #stats h4 {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #about #aboutright {
+    width: 60%;
+    margin-top: 0px;
+    margin-left: 15%;
+    z-index: 10;
+  }
+  #about #aboutright img {
+    margin-top: 0px;
+  }
+  #awards {
+    padding-top: 200px;
+    padding-bottom: 0px;
+  }
+  #awards .award-item {
+    margin: 0px 20px;
+  }
+  #howto .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 5%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #howto #howleft {
+    width: 80%;
+    padding: 30px;
+    margin-bottom: 0px;
+  }
+  #howto #howright {
+    width: 80%;
+    padding: 30px;
+    padding-top: 80px;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    margin-top: -60px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #contact .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 50px;
+  }
+  #contact #contact-img {
+    margin: 0 auto;
+    width: 90%;
+  }
+  #contact #contact-form {
+    margin: 0 auto;
+    width: 80%;
+    margin: 20px auto;
+  }
+}
+/*# sourceMappingURL=tablet.css.map */

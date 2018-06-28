@@ -1,0 +1,144 @@
+
+/* TABLET */
+
+@media only screen and (max-width: 1024px) {
+
+    .bar1, .bar2, .bar3 {
+            display: block;
+        }
+    #menu {
+        width: 400px;
+        background-color: rgba(0, 0, 0, 0.733);
+    }
+
+    nav {
+        padding: 0px;
+    }
+
+    #home .responsive {
+        width: 400px;
+        padding: 50px;
+        box-sizing: border-box;
+        height: 100vh;
+        background-color: rgb(30,48,102);
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        li {
+            display: block;
+            width: 400px;
+            a {
+                text-transform: initial;
+            }
+        }
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    #about {
+        height: 745px;
+        .container {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #aboutleft {
+            width: 100%;
+            margin-left: 5%;
+            margin-right: 5%;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 0px;
+            #info {
+                width: 60%;
+                padding: 20px;
+                z-index: 40;
+                box-sizing: border-box;
+                margin-bottom: 0px;
+                button {
+                    width: 100%;
+                }
+            }
+            #stats {
+                width: 40%;
+                padding: 20px;
+                margin-left: -5%;
+                z-index: 30;
+                box-sizing: border-box; 
+                margin-top: 100px;
+                display: flex;
+                flex-direction: column;
+                margin-bottom: -100px;
+                .stat {
+                    margin: 0 auto;
+                }
+                h4 {
+                    width: 80%;
+                    margin: 0 auto;
+                    text-align: center;
+                }
+
+            }
+        }
+        #aboutright {
+            width: 60%;
+            margin-top: 0px;
+            margin-left: 15%;
+            z-index: 10;
+            img {
+                margin-top: 0px;
+            }
+        }
+    }
+
+
+    #awards {
+        padding-top: 200px;
+        padding-bottom: 0px;
+        .award-item {
+            margin: 0px 20px;
+        }
+    }
+
+    #howto {
+        .container  {
+            flex-direction: column;
+            padding: 5%;
+            box-sizing: border-box;
+            }
+        #howleft {
+            width: 80%;
+            padding: 30px;
+            margin-bottom: 0px;
+        }
+        #howright {
+            width: 80%;
+            padding: 30px;
+            padding-top: 80px;
+            margin-left: 10%;
+            margin-bottom: 50px;
+            margin-top: -60px;
+            box-sizing: border-box;
+        }
+    }
+
+    #contact {
+        .container {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 50px;
+        }
+        #contact-img {
+            margin: 0 auto;
+            width: 90%;
+        }
+        #contact-form {
+            margin: 0 auto;
+            width: 80%;
+            margin: 20px auto;
+        }
+    }
+}

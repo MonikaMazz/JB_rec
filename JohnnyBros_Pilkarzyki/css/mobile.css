@@ -1,0 +1,175 @@
+@media only screen and (max-width: 520px) {
+  h1 {
+    font-size: 38px;
+    line-height: 38px;
+  }
+  h2 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  h4 {
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  h5 {
+    font-size: 15px;
+    line-height: 16px;
+  }
+  p, blockquote {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  button {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  #home #lead {
+    padding-top: 45px;
+    padding-bottom: 20px;
+  }
+  #home #lead p {
+    width: 100%;
+  }
+  #home #lead button {
+    margin: 20px auto;
+    padding: 0px;
+  }
+  #home .responsive {
+    width: 100%;
+  }
+  #about .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #about #aboutleft {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0;
+  }
+  #about #aboutleft #stats {
+    width: 100%;
+    padding: 50px 0;
+    margin: -50px 0px 0px 0px;
+  }
+  #about #aboutleft #stats .stat {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #about #aboutleft #info {
+    width: 90%;
+    margin: 5%;
+    padding: 15px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #about button {
+    padding-top: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #about #aboutright {
+    width: 100%;
+    /* margin-top: 500px; */
+    margin-left: 0px;
+  }
+  #about #aboutright img {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  #awards {
+    margin-top: 100px;
+    padding-bottom: 50px;
+  }
+  #awards h3 {
+    width: 100%;
+  }
+  #howto {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  #howto .container {
+    padding: 0px;
+  }
+  #howto #howleft {
+    width: 96%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 5%;
+    margin: 2%;
+    margin-top: 50px;
+  }
+  #howto #howleft button {
+    width: 100%;
+  }
+  #howto #howright {
+    width: 100%;
+    padding: 2%;
+    padding-top: 50px;
+    margin: 0;
+    margin-top: -50px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-bottom: 20px;
+  }
+  #howto #howright blockquote {
+    padding: 10px;
+  }
+  #howto #howright #person {
+    padding: 10px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #howto #howright #person img {
+    width: 65px;
+    height: 65px;
+  }
+  #howto #howright #person #personabout {
+    width: 80%;
+  }
+  #contact {
+    width: 100%;
+    padding: 0px;
+    margin: 0px auto;
+  }
+  #contact #contact-img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #contact #contact-form {
+    margin: 10px auto;
+    width: 90%;
+  }
+  #contact .container {
+    width: 100%;
+  }
+  #contact .input-top {
+    width: 100%;
+  }
+  #contact textarea {
+    width: 100%;
+    height: 150px;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */
